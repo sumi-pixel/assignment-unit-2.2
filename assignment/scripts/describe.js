@@ -24,15 +24,13 @@ if (number >= 2) {
 
 */
 
-
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-//
-//
-//
-//
-//
+// I create a variable called number  
+// Then set it to the value of 1 which is a number
+// Then the number itself is added by one 
+// Then we create a compound conditional 
+// If the number is greater than or equal to 2
+// console log `yes`
 
 //CODE
 /*
@@ -44,14 +42,12 @@ if (name === 'Mary') {
   console.log('How do you do?');
 }
 
-
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create variable called name and assign it your name 
+// Then create a conditional, if name equals mary, it will console log 'Hi Mary',
+//  Otherwise it will console log 'How do you do?'
 
 //CODE
 /*
@@ -73,10 +69,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create a variable called secret and then create another variable called code and assign it 123 
+// Then create a conditional: if code equals 123, secret is equal to the value of super, code is equal to code and multiplied by 2 
+// otherwise if code is greater than 250 then secret is equal to duper 
+// lastly console log secret 
 
 //CODE
 /*
@@ -95,9 +91,11 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
-
-
+//  create a variable called isStudent and assign it true, create a variable called age and assign it the number 34, create another variable called zip and assign it the number 55407
+// write a conditional : if isStudent is equal to true and both true zip is greater than the number 80000, it will console log `You're a student on the West Coast!`
+// otherwise if isStudent equals false or age is less than the number 30, it will console log 'What are your hobbies?'
+// otherwise if isStudent is equal to true, it will console log 'Welcome to Prime!'
+// otherwise it will console log 'How about the weather?'
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
@@ -126,21 +124,21 @@ if (number >= 2) {
 
 */
 
-
-
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'purple';
+let colorTwo = 'purple';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
 }
 */
+// colorOne has to be assigned to the color purple
+// colorTwo has to be assigned the color purple
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -150,7 +148,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -163,9 +161,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+if(Age >= minAge) {
+  //console.log('no entry');
+//} else {
   console.log('enter');
 }
 */
