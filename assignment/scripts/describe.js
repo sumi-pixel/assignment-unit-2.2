@@ -45,9 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// create variable called name and assign it your name 
-// Then create a conditional, if name equals mary, it will console log 'Hi Mary',
+// A variable was created called name and assign the word Dane
+// A conditional was created, if name equals mary, it will console log 'Hi Mary',
 //  Otherwise it will console log 'How do you do?'
+//  At the end it will console log 'Hi Mary'
 
 //CODE
 /*
@@ -69,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// create a variable called secret and then create another variable called code and assign it 123 
-// Then create a conditional: if code equals 123, secret is equal to the value of super, code is equal to code and multiplied by 2 
+// A variable called secret was created as well as a variable called code. The variables were assigned 123 
+// Then a conditional was created : if code equals 123, secret is equal to the value of super, code is equal to code and multiplied by 2 
 // otherwise if code is greater than 250 then secret is equal to duper 
 // lastly console log secret 
+// At the end it will console log 
 
 //CODE
 /*
@@ -96,6 +98,7 @@ if (isStudent === true && zip > 80000 ) {
 // otherwise if isStudent equals false or age is less than the number 30, it will console log 'What are your hobbies?'
 // otherwise if isStudent is equal to true, it will console log 'Welcome to Prime!'
 // otherwise it will console log 'How about the weather?'
+// At the end console log ' Welcome to Prime'
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
@@ -129,16 +132,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'purple';
-let colorTwo = 'purple';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
-// colorOne has to be assigned to the color purple
-// colorTwo has to be assigned the color purple
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -161,9 +163,7 @@ if (temp > 39 && time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(Age >= minAge) {
-  //console.log('no entry');
-//} else {
+if(age >= minAge) {
   console.log('enter');
 }
 */
